@@ -1,0 +1,188 @@
+l<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", intial-scale="1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title> About</title>
+
+    <style>
+body {
+
+    background-color: #F4ebee;
+}
+header { 
+    /* background-color:darkgoldenrod;  */
+    text-align: left;
+     padding: 20px; 
+     font-size: 2em;
+}
+
+About-header h1{
+    /* background-color: #ffd966;  */
+    font-size: 1em;
+    margin: 0;
+    color: black;
+    font-weight:bold;
+}
+
+about-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+font-size: 1em;
+}
+
+
+    .about h2 {
+        /* color: lime; */
+        font-size: 1em;
+        margin-bottom: 10px;
+        /* padding: 10px; */
+        margin-bottom: 10px;
+
+
+    }
+
+  
+
+    .newsletter { 
+flex: 1;
+padding: 20px;
+background-color: #f5f9e9;
+border: 2px solid #fce74e;
+border-radius: 8px;
+
+    }
+
+ .newsletter h2 {
+    color: #0c120c;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    /* justify-content: center; */
+    text-align: center;
+
+ }   
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.newsletter label {
+font-size: 1em;
+font-weight: bold;
+color: black;
+
+}
+
+.newsletter input [type="name"],
+.newlsetter input [type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid black
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.newsletter input [type="name"]:hoover,
+.newlsetter input [type="email"]:hoover {
+    border-color: #c08552;
+    background-color: #fa7921;
+} 
+.newsletter input [type="name"]:focus,
+.newlsetter input [type="email"]:focus {
+    outline: none;
+    border-color: #0c120c;
+    background-color: ##fa7921;
+
+}
+
+
+
+/* footer {
+    text-align:center;
+    padding: 10px;
+    background-color: #ffd966;
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+} */
+
+@media (min-width: 768px) {
+main {
+flex-direction: row;
+ justify-content: space-between;
+}
+
+.about, .newsletter {
+flex: 1;
+margin: 0 10px;
+}
+}
+    </style>
+</head>
+
+<body>
+<header>
+<About-h1>Fat Kid Gotta Eat</About-h1>
+
+<nav class="navbar">
+    <ul class="nav-list">
+    <li><a href="final.html">Home</a></li>
+    <li><a href="page2.html">Fried Chicken Sammy</a></li>
+    <li><a href="page3.html">Smash Potatoes</a></li>
+    <li><a href="about.html">About</a></li>
+    </ul>
+ </nav>
+
+</header>
+
+<main>
+<section class="About">
+    <about-h2>ABOUT</about-h2>
+    <p>
+Welcome to Fat Kid Gotta Eat—your one-stop shop for recipes that don’t judge your cravings. 
+Whether you are here for crispy, crunchy, or downright carb-loaded, we’ve got the eats to satisfy 
+your inner foodie (and your outer snack fiend). Forget the kale, embrace the chaos, and let’s get 
+cooking—because hunger waits for no one.
+    </p>
+</section>
+
+<section class="newsletter">
+    <h2>Join the Newsletter to Stay in the Know</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="type" id="name" name="name">
+<label for="email">Email Address:</label>
+<input tpye="email" id="email" name="name">
+
+<button type="submit">Subscribe</button>
+
+    </form>
+
+</section>
+</main>
+
+<footer>
+ <!-- <p>Fat Kid Gotta Eat</p>    -->
+ <div class="footer-content"></div>
+ <img src="images/Playful Logo Cartoon Dec 07.webp" alt="logo" class="footer-logo">
+
+ <a 
+href="https://www.instagram.com/fatkidgottaeat" target="_blank" class="social-link">
+   Follow us on Instagram
+
+</a>
+
+ 
+</div>
+</footer>
+
+</body>
+
+</html>
+
+
